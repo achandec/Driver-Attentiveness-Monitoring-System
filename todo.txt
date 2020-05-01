@@ -1,0 +1,9 @@
+TO DO:
+-Add Face Pose (Done)
+-Plot EAR vs Rx,Ry,Rz (Done)
+-Figure out Thresholds function
+
+- Side Face detector -- so that if it is on for a second or more it generates a warning (because driver not looking at the road)
+-Incorporate Gaze
+-Better Face detector (ML model so that recognizes a face at weird angles)
+
