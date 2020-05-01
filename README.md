@@ -4,7 +4,7 @@ A Computer Vision based approach to monitor a driver's attention to the road whi
 -By Al Chandeck Chen
 
 ## Introduction
-   I have worked in the EcoCar’s Human Machine Interaction (HMI) team. As a member of this team I worked into the Driver Attentiveness Monitoring System (DAMS). This kind of system usually takes of an autonomous vehicle (AV) and its task is to track the driver’s attention when the car is in autonomous mode. The idea is that a car’s self-driving capabilities are not infallible, and as such, it is necessary that the driver is attentive to the road and its surroundings in order to be able to react, in a timely manner, in case of failure of the autonomous driving system. Hence, this system main purpose is safety.
+     A Driver Attentiveness Monitoring System (DAMS) system usually takes part within an autonomous vehicle (AV) and its task is to track the driver’s attention when the car is in autonomous mode. The idea is that a car’s self-driving capabilities are not infallible, and as such, it is necessary that the driver is attentive to the road and its surroundings in order to be able to react, in a timely manner, in case of failure of the autonomous driving system. Hence, this system main purpose is safety.
   
   Initial work in this system within Georgia Tech’s EcoCar team started last semester (Fall 2019). Previous members attempted to create a convolutional neural network (CNN) to inference if a driver was “paying attention” or doing other activities (e.g. talking to a passenger, texting, talking on the phone, and more). The CNN was trained on a dataset which was provided in a Kaggle competition and had over 200 thousand images for 10 different classes, among which, only one was the “paying attention class.”
 
