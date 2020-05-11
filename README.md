@@ -13,5 +13,7 @@ A Computer Vision based approach to monitor a driver's attention to the road whi
 
 ## Work Done
   Find below the flow diagram of the code to get the big picture of how it works.
+  <p align="center">
+    <img src="images/codeBigPicture.png" width="680">
+  </p>
   
-The EAR threshold is a continuous mathematical function that I derived from the plotting of the left eye’s EAR vs Rx (face’s pitch or rotation about the x-axis). This function changes as function of the driver’s head rotation matrix.
