@@ -3,6 +3,13 @@ A Computer Vision based approach to monitor a driver's attention to the road whi
 
 -By Al Chandeck Chen
 
+## Setup
+Linux users:
+1. git clone https://github.com/achandec/Driver-Attentiveness-Monitoring-System.git DAMS
+2. cd DAMS
+3. .setup.sh
+
+
 ## Introduction
   A Driver Attentiveness Monitoring System (DAMS) system usually takes part within an autonomous vehicle (AV) and its task is to track the driver’s attention when the car is in autonomous mode. The idea is that autnomous-driving systems are not infallible, and as such, it is necessary that the driver is attentive to the road and its surroundings in order to be able to react, in a timely manner, in case of failure. Hence, DAMS main purpose is safety.
 
