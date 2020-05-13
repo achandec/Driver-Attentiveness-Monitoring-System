@@ -1,7 +1,9 @@
 # Driver Attentiveness Monitoring System
 A Computer Vision based approach to monitor a driver's attention to the road while driving.
 
--By Al Chandeck Chen
+<p align="center">
+<img width="400" src="images/ClosedEyesDemo.gif">
+</p>
 
 ## Setting Up the Environment
 Linux users:
