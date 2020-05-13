@@ -13,7 +13,7 @@ catkin-tools==0.4.5
 certifi==2018.1.18
 chardet==3.0.4
 click==7.1.2
-cryptography==2.1.4
+cryptography==2.3
 cupshelpers==1.0
 cycler==0.10.0
 Cython==0.29.16
