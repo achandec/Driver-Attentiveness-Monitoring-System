@@ -10,10 +10,11 @@ Linux users:
 1. Create a virtual environment (optional, but recommended).
 2. `git clone https://github.com/achandec/Driver-Attentiveness-Monitoring-System.git ~/DAMS`
 3. `cd ~/DAMS`
-4. `./setup.sh`
+4. activate your virtual environment (user dependent e.g. `activate <virtualenv_name>`, `conda activate <virtualenv_name>`, `workon <virtualenv_name>`...)
+5. `./setup.sh`
 
 ## Basic Usage
-1. activate your virtual environment (user dependent e.g. `activate <virtualenv_name>`, `conda activate <virtualenv_name>`, `workon <virtualenv_name>`...)
+1. activate your virtual environment (optional)
 2. `cd ~/DAMS`
 3. `python3 mainFile.py`
 
