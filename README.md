@@ -28,6 +28,6 @@ Linux users:
 ## Work Done
   Find below the flow diagram of the code to get the big picture of how it works.
   <p align="center">
-    <img src="images/codeBigPicture.png" width="680">
+    <img src="images/codeBigPicture.jpg" width="680">
   </p>
   
