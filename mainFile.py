@@ -117,21 +117,24 @@ def streamVideo(graySc = False, camUsed = 0, mode = "stream", vidFileName = ''):
     if mode == "stream":
         # Open stream of video at 30fps:
         cap = cv2.VideoCapture(CameraUsed, cv2.CAP_V4L)
-        cap.set(cv2.CAP_PROP_FPS, 30)
+        cap.set(cv2.CAP_PROP_FPS, 10) # set fps to 2,5,10,15,or 30
         frame_rate = cap.get(cv2.CAP_PROP_FPS)
+        # Set resolution to 480p (no need for higher resolution)
+        cap.set(3, 640)
+        cap.set(4, 480)
         print("Camera Frame rate set at: ", frame_rate)
         
     elif mode == "file":
         # Playing video from file:
         cap = cv2.VideoCapture(vidFileName)
-    # define two constants, one for the eye aspect ratio to indicate
-    # blink and then a second constant for the number of consecutive
-    # frames the eye must be below the threshold
-    CLOSED_EYE_EAR_THRESH = 0.33
+    # define constant for the number of consecutive
+    # frames the eye must be below the threshold to be
+    # considered closed
     CONSEC_FRAMES_FOR_BLINK = 3
     CONSEC_FRAMES_ASLEEP_ALERT = 1*frame_rate # ~1 sec 
 
-    # initialize the frame counters and the total number of blinks    
+    # initialize the frame counters and the total number of times
+    # the driver has fallen asleep    
     COUNTER = 0
     TOTAL = 0
     currentFrame = 0
