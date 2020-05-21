@@ -122,6 +122,7 @@ def streamVideo(graySc = False, camUsed = 0, mode = "stream", vidFileName = ''):
         # Set resolution to 480p (no need for higher resolution)
         cap.set(3, 640)
         cap.set(4, 480)
+        # Printout the working fps to terminal
         print("Camera Frame rate set at: ", frame_rate)
         
     elif mode == "file":
